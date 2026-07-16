@@ -1,4 +1,4 @@
-# tikiLabMarket
+# Dalt's Bazar
 
 tekierz's Claude Code plugin & skill marketplace — a home for plugins and skills worth sharing:
 CLI delegation, design languages, and whatever comes next.
@@ -6,16 +6,16 @@ CLI delegation, design languages, and whatever comes next.
 Add the marketplace once and every plugin here is an install away:
 
 ```bash
-/plugin marketplace add tekierz/tikiLabMarket
+/plugin marketplace add tekierz/dalts-bazar
 ```
 
 ## Plugins
 
 | Plugin | What it does | Install |
 |--------|--------------|---------|
-| **cursor** | Use the Cursor CLI (`cursor-agent`) from Claude Code for reviews and task delegation ([docs below](#the-cursor-plugin)) | `/plugin install cursor@tikiLabMarket` |
-| **codex** | Use Codex from Claude Code for reviews and task delegation ([docs below](#the-codex-plugin)) | `/plugin install codex@tikiLabMarket` |
-| **cyber-deck-ui** | Cyber-deck design language skill — cyberpunk / retro-future / CRT / EVA instrument-panel UI ([repo](https://github.com/tekierz/cyber-deck-ui)) | `/plugin install cyber-deck-ui@tikiLabMarket` |
+| **cursor** | Use the Cursor CLI (`cursor-agent`) from Claude Code for reviews and task delegation ([docs below](#the-cursor-plugin)) | `/plugin install cursor@dalts-bazar` |
+| **codex** | Use Codex from Claude Code for reviews and task delegation ([docs below](#the-codex-plugin)) | `/plugin install codex@dalts-bazar` |
+| **cyber-deck-ui** | Cyber-deck design language skill — cyberpunk / retro-future / CRT / EVA instrument-panel UI ([repo](https://github.com/tekierz/cyber-deck-ui)) | `/plugin install cyber-deck-ui@dalts-bazar` |
 
 After installing any plugin, reload:
 
@@ -57,13 +57,13 @@ too (see [The Codex Plugin](#the-codex-plugin)).
 Add the marketplace in Claude Code (if you haven't already):
 
 ```bash
-/plugin marketplace add tekierz/tikiLabMarket
+/plugin marketplace add tekierz/dalts-bazar
 ```
 
 Install the plugin:
 
 ```bash
-/plugin install cursor@tikiLabMarket
+/plugin install cursor@dalts-bazar
 ```
 
 Reload plugins:
@@ -332,7 +332,7 @@ This way you can review the Cursor work or continue the work there.
 
 The original Codex plugin remains available, unchanged, in two places:
 
-- from this marketplace: `/plugin install codex@tikiLabMarket`
+- from this marketplace: `/plugin install codex@dalts-bazar`
 - from upstream: `/plugin marketplace add openai/codex-plugin-cc`
 
 Its source lives in [`plugins/codex`](./plugins/codex) and is fully documented in the

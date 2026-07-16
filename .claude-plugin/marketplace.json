@@ -1,10 +1,10 @@
 {
-  "name": "tikiLabMarket",
+  "name": "dalts-bazar",
   "owner": {
     "name": "tekierz"
   },
   "metadata": {
-    "description": "tikiLabMarket — tekierz's collection of Claude Code plugins and skills: CLI delegation (Codex, Cursor), design languages, and more.",
+    "description": "Dalt's Bazar — tekierz's collection of Claude Code plugins and skills: CLI delegation (Codex, Cursor), design languages, and more.",
     "version": "1.1.0"
   },
   "plugins": [
